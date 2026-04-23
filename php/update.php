@@ -4,5 +4,11 @@ include 'mydb.php';
 include 'navbar.php';
 
 $expid = $_POST['id'];
-$sql = "DELETE FROM expenses WHERE id=$expid";
+$title = $_POST['title'];
+$amt = $_POST['amt'];
+$categy = $_POST['categy'];
+$note = $_POST['note'];
+
+$sql = "UPDATE expenses SET title='$title',amount='$amt',category='$categy',note='$note' WHERE id=$expid";
+
 mysqli_query($conn, $sql);
