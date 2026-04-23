@@ -39,34 +39,14 @@ include 'mydb.php';
                     <li class="nav-item">
                         <a class="nav-link" href="expense_list.php">Expenses</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tasks.php">Tasks</a>
-                    </li>
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="reports.php">Reports</a></li>
-                            <li><a class="dropdown-item" href="settings.php">Settings</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
+
+                        
                             <li><a class="dropdown-item" href="about.php">About</a></li>
                         </ul>
                     </li>
                 </ul>
 
-                <!-- Right-aligned links -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.php">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-danger" href="logout.php">Logout</a>
-                    </li>
-                </ul>
+            
             </div>
         </div>
     </nav>
