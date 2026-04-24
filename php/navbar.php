@@ -34,19 +34,19 @@ include 'mydb.php';
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="home.php">Home</a>
+                        <a class="nav-link active" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="expense_list.php">Expenses</a>
                     </li>
 
-                        
-                            <li><a class="dropdown-item" href="about.php">About</a></li>
-                        </ul>
-                    </li>
+
+                    <li><a class="dropdown-item" href="about.php">About</a></li>
+                </ul>
+                </li>
                 </ul>
 
-            
+
             </div>
         </div>
     </nav>

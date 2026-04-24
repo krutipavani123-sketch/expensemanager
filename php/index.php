@@ -11,8 +11,8 @@ include 'navbar.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
-
     <link rel="stylesheet" href="../css/index.css">
+
 
 </head>
 
@@ -36,13 +36,41 @@ include 'navbar.php';
             </select><br>
 
             <label>Note</label>
-            <input type="text" name="note" required>
+            <input type="text" name="note" required><br>
 
             <button type="submit" name="btn">Add Expense</button>
 
 
         </div>
     </form>
+
+
+    <div class="table-responsive">
+        <table id="table" class="table table-bordered table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Expense</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Note</th>
+                    <th>Created Date</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+            <tbody id="dataload">
+
+            </tbody>
+
+
+        </table>
+    </div>
+
+
+    <script src="../js/expense_list.js"></script>
+
+
 </body>
 
 </html>
