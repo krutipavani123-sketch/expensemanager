@@ -28,7 +28,7 @@ include 'navbar.php';
                         <th>Category</th>
                         <th>Note</th>
                         <th>Created Date</th>
-                        <th>Action</th>
+                        
                     </tr>
 
                 </thead>
@@ -40,7 +40,7 @@ include 'navbar.php';
             </table>
         </div>
     </form>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../js/expense_list.js"></script>
 </body>
 

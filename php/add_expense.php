@@ -1,7 +1,7 @@
 <?php
 
 include 'mydb.php';
-include 'navbar.php';
+
 
 if (isset($_POST['btn'])) {
     $title = $_POST['title'];

@@ -1,7 +1,7 @@
 <?php
 
 include 'mydb.php';
-include 'navbar.php';
+
 
 
 $exid = $_POST['id'];

@@ -11,7 +11,8 @@ include 'navbar.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker</title>
-    <link rel="stylesheet" href="../css/index.css">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 
 </head>
@@ -67,6 +68,7 @@ include 'navbar.php';
         </table>
     </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="../js/expense_list.js"></script>
 
