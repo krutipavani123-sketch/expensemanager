@@ -1,7 +1,7 @@
 <style>
 
 html, body {
-  height: 100%;              /* Ensure both html and body take full height */
+  height: 100%;         
   margin: 0;
 }
 
@@ -9,9 +9,9 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f7f6;
   display: flex;
-  justify-content: center;   /* Horizontal center */
-  align-items: center;       /* Vertical center */
-  min-height: 100vh;         /* Full viewport height */
+  justify-content: center;  
+  align-items: center;       
+  min-height: 100vh;         
 }
 
 .container {
@@ -19,8 +19,8 @@ body {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  width: 90%;                /* Responsive width */
-  max-width: 400px;          /* Slim box on desktop */
+  width: 90%;                
+  max-width: 400px;       
   text-align: center;
 }
 
@@ -43,7 +43,6 @@ input,
 select {
     width: 100%;
     padding: 8px;
-    /* Input padding ochi */
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 6px;
